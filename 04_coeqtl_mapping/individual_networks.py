@@ -24,7 +24,7 @@ def get_time(x):
 class DATASET:
     def __init__(self, datasetname):
         self.name = datasetname
-        self.path_prefix = Path("/groups/umcg-lld/tmp01/projects/1MCellRNAseq/GRN_reconstruction/ongoing/seurat_objects")
+        self.path_prefix = Path("./seurat_objects")
         self.information = self.get_information()
     def get_information(self):
         if self.name == 'onemillionv2':
