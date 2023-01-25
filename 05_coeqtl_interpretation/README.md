@@ -19,3 +19,13 @@
 *LDTRAIT.ipynb*: Add GWAS annotation to SNP / SNP in LD
 
 *TEM_NAIVE.ipynb*: Examine the impact of rs1131017 on the ratio between TEM and naive T cells
+
+*MS1_Libraries.r*: libraries used for R1_TRANSFAC_enrichment.ipynb, R2_Coloc.ipynb, R3_Coloc_Evaluation.ipynb scripts
+
+*R1_TRANFAC_enrichment.ipynb*: checks TRANSFAC enrichment among co-eGenes and compares them to the Remap enrichment results
+
+*R2_Coloc.ipynb*: runs colocalization analysis on the output of the eqtl and co-eqtl pipeline
+
+*R3_Coloc_Evaluation.ipynb*: investigates and summarizes the results from the colocalization analysis of script R2_Coloc.ipynb
+
+
