@@ -2,6 +2,8 @@
 
 *enrichment_GO_terms.R* :  checks GO enrichment among co-eGenes
 
+*enrichment_GO_terms_reduced_background.R* : alternative version of *enrichment_GO_terms.R*  with a more specific background, including only genes tested for the respective SNP-eGene combination
+
 *enrichment_TFs_Remap_preprocessing.R*: filters TFBS annotations from Remap2022 for blood-related cell lines
 
 *enrichment_TFs_Remap.R* : checks enrichment of TFBS among co-eGenes using Remap 2022 annotations in three steps: 1) checks for each cell type and coeGene cluster the enrichment (FDR corrected), 2) checks if the enriched TF is itself part of the coeGenes, 3) checks if the SNP or a SNP in LD is part of the TF
