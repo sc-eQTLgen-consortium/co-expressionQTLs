@@ -8,9 +8,11 @@
 
 *compare_immunexut_cutoffs_CD4T.py*: Same approach as in *compare_blueprint_cutoffs_CD4T.py*, but comparing correlation between ImmuNexUT and Oelen v3 dataset instead
 
-*correlation_between_datasets_othercts.R*:
-
 *correlation_between_datasets.R*: check Pearson correlation between data sets (for CD4+ T cells) for single cell vs single cell dataset comparison, single cell vs bulk dataset comparison and bulk vs bulk dataset comparison, afterwards combines all results in one large heatmap
+
+*correlation_between_datasets_extended.R*: check if the correlation values between matched cell types for single cell and bulk (ImmuNexUT) are higher than for not-matched cell types
+
+*correlation_between_datasets_othercts.R*: extension of *correlation_between_datasets.R* that includes all cell types (not only CD4+ T cells)
 
 *correlation_timepoint_combined_indivs_1mio.py*: calculate the co-expression for genes that are expressed in more than 50% cells in Oelen v2 and v3 dataset
 
