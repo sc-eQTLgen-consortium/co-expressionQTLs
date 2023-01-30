@@ -14,11 +14,18 @@ In *setting_files_for_grnboost2* there are setting files for running GRNBoost2 o
 *compare_cell_classification.ipynb*: compares the aximuth cell type classification with the marker gene cell type classification in Oelen v2 and v3 dataset for untreated cells
 
 Metacell calculation and evaluation files are all in the directory *metacell*:
+
 *metacell_per_sample_original_algorithm.R*: calculates metacells based on original algorithm (implemented in the metacell R package)
+
 *metacells_from_leiden.R*: calculates metacells based on grouping from leiden clustering
+
 *create_genesets.R*: split all genes expressed in Oelen v3 dataset, Monocytes, into different expression bins for treshold-dependent evaluation with BLUEPRINT
+
 *metacell_general_correlation_tp.R*: calculates correlation from metacells (original or leiden) for different expression tresholds from *create_genesets.R* for comparison with BLUEPRINT
+
 *single_cell_correlation_tp.R*: calculates correlation from single cell dataset for different expression tresholds from *create_genesets.R* for comparison with BLUEPRINT
+
 *eval_blueprint_genesets.R*: compares correlation from BLUEPRINT with correlation from metacells/single cell for different expression tresholds, using correlation vlaues from *metacell_general_correlation_tp.R* and *single_cell_correlation_tp.R*
+
 *plot_overview_metacell.R*: visualize outputs from metacell evaluation in one plot
 
