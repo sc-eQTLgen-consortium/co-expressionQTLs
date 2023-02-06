@@ -4,9 +4,13 @@ This repository contains the code to generate the results and figures from
 
 **Identification of genetic variants that impact gene co-expression relationships using large-scale single-cell data**
 
-Shuang Li *, Katharina T. Schmid *, Dylan de Vries *, Maryna Korshevniuk , Roy Oelen, Irene van Blokland, BIOS Consortium, sc-eQTLgen Consortium, Hilde E. Groot, Morris A. Swertz, Pim van der Harst, Harm-Jan Westra, Monique van der Wijst, Matthias Heinig **, Lude Franke **
+Shuang Li *, Katharina T. Schmid *, Dylan de Vries *\*, Maryna Korshevniuk *\*, Corinna Losert, Roy Oelen, Irene van Blokland, BIOS Consortium, sc-eQTLgen Consortium, Hilde E. Groot, Morris A. Swertz, Pim van der Harst, Harm-Jan Westra, Monique van der Wijst, Matthias Heinig †, Lude Franke †
 
-<add reference to publication here when available>
+\* These authors contributed equally<br>
+** These authors contributed equally<br>
+† These authors contributed equally
+
+Preprint: https://www.biorxiv.org/content/10.1101/2022.04.20.488925v1
 
 ## Overview
 
